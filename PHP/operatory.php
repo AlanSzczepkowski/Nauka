@@ -25,6 +25,8 @@
     echo "porownanie a <= c to: ".$wynik."<br>";
     $wynik=($a>$c);
     echo "porownanie a > c to: ".$wynik."<br>";
+    $wynik=($a>=$c);
+    echo "<p> porwnanie a >= c to:".$wynik."</p>";
 
     
     ?>
