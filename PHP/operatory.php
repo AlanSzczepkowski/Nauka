@@ -26,7 +26,14 @@
     $wynik=($a>$c);
     echo "porownanie a > c to: ".$wynik."<br>";
     $wynik=($a>=$c);
-    echo "<p> porwnanie a >= c to:".$wynik."</p>";
+    echo "<p> porwnanie a >= c to:".$wynik."</p> cd";
+
+    $f=true;
+    $g=false;
+    $h=true;
+    $i=false;
+    echo" <br>spojnik LUB(f||g) wynik:". ($f||$g);
+    echo" <br>spojnik LUB(f&&g) wynik:". ($f&&$g);
 
     
     ?>
